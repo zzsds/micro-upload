@@ -11,7 +11,6 @@ import (
 
 func main() {
 	InitConfig()
-
 	// New Service
 	service := web.NewService(
 		web.Name("go.micro.api.upload"),
